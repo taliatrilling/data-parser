@@ -1,2 +1,2 @@
-# Psuedocode: 
+
 # I am writing this program with the goal of creating something that will help me with my qualitative data analysis for an academic psychological study I have been assisting on. Much of what I am putting in here is adapted from the work of others, and I have made my best attempt to give credit where credit is due. Eventual goals include performing basic statistical analyses and cleaning data, but for now the goal is to parse the (extensive and text-heavy) data in a way that the computer can read. 
