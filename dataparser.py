@@ -296,6 +296,6 @@ def jealous2():
 
 jealous2()
 
-print jealousbycond2_2
+
 
 
