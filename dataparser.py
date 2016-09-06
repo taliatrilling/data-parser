@@ -55,6 +55,19 @@ bycondition6gender1 = df.groupby(by = "CONDITION").get_group("6").groupby(by = "
 
 bycondition6gender2 = df.groupby(by = "CONDITION").get_group("6").groupby(by = "Sex:").get_group("2")
 
+#to get mean and std age by condition
+
+statscond1 = bycondition1.apply(pd.to_numeric).describe()
+
+statscond2 = bycondition2.apply(pd.to_numeric).describe()
+
+statscond3 = bycondition3.apply(pd.to_numeric).describe()
+
+statscond4 = bycondition4.apply(pd.to_numeric).describe()
+
+statscond5 = bycondition5.apply(pd.to_numeric).describe()
+
+statscond6 = bycondition6.apply(pd.to_numeric).describe()
 
 #data sorted by condition and age
 
@@ -294,7 +307,10 @@ def jealous2():
             not_jealous = not_jealous + 1
     print jealous, not_jealous
 
-jealous2()
+
+
+
+
 
 
 
